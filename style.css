@@ -1,0 +1,74 @@
+body {
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url("/img/soundStageBackground.png");
+    margin:0;
+
+
+}
+
+h1 {
+    background-color: #232323;
+    color: white;
+    line-height: 1.1;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    margin-top:50px;
+    padding-bottom:30px;
+    padding-top:30px;
+    font-size: 40px;
+    border-bottom:4px solid rgba(15, 15, 15, 0.8);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto 20%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:300px;
+}
+
+.button {
+    flex-grow:1;
+    line-height: 40px;
+    background: rgba(35, 35, 35, 0.8);
+    margin: 10px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    flex-shrink: 0;
+    text-align:center;
+    align-items: center;
+    letter-spacing: 1px;
+    color:  #a68b03;
+    border-radius: 25%;
+    border: 4px solid rgba(15, 15, 15, 0.8);
+    transition: all 0.2s;
+    
+}
+
+.playing {
+    background:  #a68b03;
+    transform:scale(2);
+
+}
+
+kbd{
+    display:block;
+    line-height: 60px;
+    font-size: 50px;
+    color: white;
+}
+
+
+.button:hover {
+    border: 4px solid #a68b03;
+}
+
